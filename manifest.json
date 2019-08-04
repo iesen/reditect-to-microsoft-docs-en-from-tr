@@ -1,0 +1,16 @@
+{
+    "name": "Redirect to English Microsoft Docs from Turkish",
+    "version": "0.1",
+    "description": "Israrla gelen Türkçe MS Docs (docs.microsoft.com) sayfalarına son...",
+    "manifest_version": 2,
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://docs.microsoft.com/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
