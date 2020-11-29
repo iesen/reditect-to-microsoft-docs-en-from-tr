@@ -1,0 +1,31 @@
+{
+  "name": "redirect-to-ms-docs-en",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iesen/reditect-to-microsoft-docs-en-from-tr.git",
+  "author": "Ibrahim Esen",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "lint": "eslint . --ext .ts",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "~7.12.7",
+    "@babel/preset-typescript": "~7.12.7",
+    "@types/jest": "~26.0.15",
+    "@typescript-eslint/eslint-plugin": "~4.8.2",
+    "@typescript-eslint/parser": "~4.8.2",
+    "babel-jest": "~26.6.3",
+    "copy-webpack-plugin": "~6.3.2",
+    "cross-env": "~7.0.2",
+    "eslint": "~7.14.0",
+    "jest": "~26.6.3",
+    "ts-jest": "~26.4.4",
+    "ts-loader": "~8.0.11",
+    "typescript": "~4.1.2",
+    "webpack": "~5.8.0",
+    "webpack-cli": "~4.2.0"
+  }
+}

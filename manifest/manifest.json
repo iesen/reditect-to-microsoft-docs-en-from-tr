@@ -1,0 +1,16 @@
+{
+  "name": "Redirect to English Microsoft Docs",
+  "version": "0.1",
+  "description": "Redirect to English version of Microsoft dosc, if it is served from your language. (Israrla gelen Türkçe MS Docs (docs.microsoft.com) sayfalarına son...)",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://docs.microsoft.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
