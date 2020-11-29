@@ -3,6 +3,8 @@ If your browser automatically opens non-English version of MS Docs (docs.microso
 You do not need no change your browser or system locale settings.
 
 ## Build
+This extension is written in Typescript. Extension unpacked output is build into dist folder.
+ESLint and Jest (with Typescript) is used for linting and testing.
 ```
 yarn watch
 ```
